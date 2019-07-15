@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ 
+    <script src="https://kit.fontawesome.com/ad3501210d.js"></script>
+    <style>
+    body{
+        margin: 0;
+
+    }
+    .icon-bar{
+
+       width: 100%;
+       background-color: #555;
+    }
+    .icon-bar a{
+       display: inline-block;
+        width:100px;
+        text-align: center;
+        padding: 12px 0;
+        color: aliceblue;
+        font-size: 36px;
+    }
+    /* .icon-bar a:hover{
+        background-color: rgba(149,165,166 ,1);
+    } */
+    .active{
+        background-color: rgba(39,174,96 ,1);
+    }
+    .icon-bar a:not(.active):hover{
+        background-color: rgba(149,165,166 ,1);
+    }
+    </style>
+</head>
+<body>
+      <div class="icon-bar">
+      <a href="#"class="active"><i class="fas fa-home   "></i></a>
+      <a href="#"><i class="fas fa-search    "></i></a>
+      <a href="#"><i class="fas fa-envelope    "></i></a>
+      <a href="#"><i class="fas fa-globe    "></i></a>
+      <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+    </div>
+</body>
+</html>
